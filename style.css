@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#a8c0ff, #3f2b96) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+h1{
+    display: flex;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+#jogo{
+    width: 454px;
+    height:430px;
+    border: white solid 2px;
+    margin: 0 auto;
+}
+ 
+.linha1, .linha2{
+    height:142px;
+    border-bottom: white solid 2px;
+}
+ .linha3{
+    height: 142px;
+ }
+.casa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:150px;
+    height:142px;
+    float:left;
+}
+.casa:hover{
+    background-color: #c83d38;
+}
+#casa1, #casa2, #casa4, #casa5, #casa7, #casa8{
+    border-right: white solid 2px;
+}
+#casa9:hover{
+    background-color: #c83d38;
+}
+input{
+    width: 260px;
+    height: 60px;
+    background-color: #e75170;
+    color: white;
+    margin: 0 auto;
+    border: none;
+    margin-top: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+}
